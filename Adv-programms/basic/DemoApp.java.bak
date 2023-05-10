@@ -1,0 +1,44 @@
+class ATest
+{
+	static
+	{
+		System.out.println("Atest static block executed");
+	}
+    public ATest()
+	{
+		System.out.println("Atest constructor executed");
+	}
+}
+
+class ADemo
+{
+   static
+    {
+      System.out.println("Ademo static block executed");
+	}
+    public ADemo()
+	{
+		System.out.println("ADemo constructor executed");
+	}
+}
+
+
+class DemoApp 
+{
+	static
+	{
+		System.out.println("DemoApp static block executed");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main method execution start"); 
+		ATest t1=new ATest();
+		ATest t2=new ATest();
+		ADemo d1=new ADemo();
+		System.out.println("==========");
+		Class.forName("ADemo");
+		Class.forName("ATest");
+		Class.forName("DemoApp");
+		System.out.println("main method execution end");
+	}
+}

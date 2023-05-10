@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+<servlet-name>html</servlet-name>
+<servlet-class>com.nt.servlet.HtmlServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>html</servlet-name>
+<url-pattern>/htmlurl</url-pattern>
+</servlet-mapping>
+</web-app>
+
+

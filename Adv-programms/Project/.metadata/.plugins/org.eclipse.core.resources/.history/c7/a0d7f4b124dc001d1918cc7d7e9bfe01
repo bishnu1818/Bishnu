@@ -1,0 +1,18 @@
+package in.ashok.beans;
+
+public class car {
+	
+	private IEngine eng;
+	public void drive() {
+		
+		int engstatus=eng.start();
+		if(engstatus==1) {
+			System.out.println("Engine Started");
+		}
+		else {
+			System.out.println("Engine not Started");
+		}
+		
+	}
+
+}

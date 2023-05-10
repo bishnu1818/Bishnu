@@ -1,0 +1,5 @@
+127.0.0.1 - - [16/Jan/2023:18:54:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:18:54:28 +0530] "GET /CoronaVaccineApp/corona_vaccine.html HTTP/1.1" 200 356
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:18:54:28 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:18:54:52 +0530] "GET /CoronaVaccineApp/coronaurl?Pname=jhgjg&Paddrs=dfhk12&Page=12 HTTP/1.1" 200 198
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:18:54:52 +0530] "GET /CoronaVaccineApp/images/image.jpg HTTP/1.1" 404 792
